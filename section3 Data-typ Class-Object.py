@@ -19,7 +19,7 @@ print(text[7:])             #Is Taha , I Am java Developer
 
 #List Mehtode
 
-l=[1,2,3,True,False,'welcome']
+l=[0,1,2,3,True,False,'welcome']
 
 l.append(1000)
 for x in l:
@@ -30,10 +30,10 @@ l.insert(3,33)
 for x in l:
     print(x)               #[1,2,3,33,True,False,'welcome',1000]
 print ('---------------------------------')    
-l.remove(False,)
+l.remove(False)
 for x in l:
     print(x)               #[1,2,3,3,33,True,'welcome',1000]
-print ('---------------------------------')
+print ('--****-------------------------------')
 l=[23,45,1,2,6,8]
 l.sort()
 for x in l:                #[1,2,6,8,23,45]
