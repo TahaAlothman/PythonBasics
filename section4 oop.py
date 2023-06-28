@@ -67,8 +67,8 @@ welcome Taha
 40.0
 '''
 #____________________________________________________________________________#
-
 '''
+
 bank
     - creat account: name, age , gender
     - desposite
@@ -77,7 +77,7 @@ bank
     - show all details
 '''
 
-'''
+
 class User:
     def __init__(self,name,age,gender):
         print(f'welcome {name}')
@@ -105,7 +105,7 @@ class Bank(User):
         print(f'you current balamce : {self.balance}')
 
     def view_balance(self):
-         print(f'you current balance : {self.balance}')
+         print(f'you current balance--- : {self.balance}')
 
 
     
@@ -115,13 +115,13 @@ x.deposite(100)
 
 x.deposite(100)
 
-x.withdrow(123)
+x.withdrow(233)
 
 
 x.view_balance()
 x.client_datails()
 
-'''
+
 #____________________________________________________________________________#
 '''
 kurs :
