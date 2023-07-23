@@ -51,8 +51,8 @@ class Game:
 
 
 
-
-x=Game('Taha')
+Name= input('Enter your Name please : ')
+x=Game(Name)
 
         
 
